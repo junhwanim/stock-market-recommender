@@ -1,11 +1,17 @@
 export const colors = {
-    primary: '#388087',
-    secondary: '#6FB3B8',
-    powderBlue: '#BADFE7',
-    magicMint: '#C2EDC3',
-    whiteSmoke: '#F6F6F2',
-    white: '#FFFFFF',
-    black: '#202020',
-    grey: '#B8B8B8'
+  primary: "#388087",
+  secondary: "#6FB3B8",
+  whiteSmoke: "#F6F6F2",
+  white: "#FFFFFF",
+  black: "#202020",
+  grey: "#B8B8B8",
+  red: "#842029",
+  redBg: "#f8d7da",
+  redBorder: "#f5c6cb",
+  green: "#0f5132",
+  greenBg: "#d1e7dd",
+  greenBorder: "#badbcc",
+  yellow: "#664d03",
+  yellowBg: "#fff3cd",
+  yellowBorder: "#ffecb5",
 };
-

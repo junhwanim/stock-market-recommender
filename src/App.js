@@ -1,8 +1,7 @@
 import React from "react";
-import styled from "styled-components";
-import { colors } from "./styles/colors";
 import Header from "./components/Header";
-import Content from "./components/Content";
+import Content from "./components/Main";
+import styled from "styled-components";
 
 function App() {
   return (
@@ -14,9 +13,11 @@ function App() {
 }
 
 const AppContainer = styled.div`
-  width: 100vw;
-  height: 100vh;
-  background: ${colors.whiteSmoke};
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 export default App;

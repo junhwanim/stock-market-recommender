@@ -1,6 +1,6 @@
 import React from "react";
-import styled from "styled-components";
 import { colors } from "../styles/colors";
+import styled from "styled-components";
 
 const Header = () => {
   return (
@@ -10,13 +10,17 @@ const Header = () => {
   );
 };
 
-const HeaderContainer = styled.div`
+const HeaderContainer = styled.header`
   display: flex;
+  position: sticky;
+  top: 0;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 80px;
   padding: 10px;
+  background-color: ${colors.whiteSmoke};
+  z-index: 10;
 `;
 
 const Title = styled.h1`

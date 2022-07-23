@@ -24,6 +24,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	font-family: 'Quicksand', sans-serif;
+	background: #F6F6F2;
 }
 ol, ul {
 	list-style: none;

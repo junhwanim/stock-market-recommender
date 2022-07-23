@@ -1,24 +1,20 @@
 export const stockSymbols = [
-    'AAPL',
-    'MSFT',
-    'GOOG',
-    'GOOGL',
-    'AMZN',
-    'TSLA',
-    'META',
-    'UNH',
-    'V',
-    'TSM',
-    'NVDA',
-    'XOM',
-    'WMT',
-    'PG'
+  "AAPL",
+  "MSFT",
+  "GOOGL",
+  "AMZN",
+  "TSLA",
+  "UNH",
+  "TSM",
+  "NVDA",
+  "XOM",
+  "WMT",
 ];
 
 export const socialMedia = [
-    'Twitter',
-    'Facebook',
-    'Instagram',
-    'LinkedIn',
-    'Reddit'
+  "Twitter",
+  "Facebook",
+  "Instagram",
+  "LinkedIn",
+  "Reddit",
 ];
