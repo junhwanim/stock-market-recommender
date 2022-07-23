@@ -5,7 +5,7 @@ import styled from "styled-components";
 const Header = () => {
   return (
     <HeaderContainer>
-      <Title>BOOSTOCK</Title>
+      <AppTitle>BOOSTOCK</AppTitle>
     </HeaderContainer>
   );
 };
@@ -23,7 +23,7 @@ const HeaderContainer = styled.header`
   z-index: 10;
 `;
 
-const Title = styled.h1`
+const AppTitle = styled.h1`
   background-image: linear-gradient(
     180deg,
     ${colors.primary},
